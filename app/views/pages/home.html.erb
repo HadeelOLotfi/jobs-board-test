@@ -3,9 +3,9 @@
 <p>Hello <%= current_user.email %></p>
 <p> You are a [<%= current_user.role %>] </p>
 
-<% if current_user.admin? %>
-  
-<% end %>
+<%# if current_user.admin? %>
+<%#= render partial: "jobs/new" %>
+<%# end %>
 
 <p>
       You have successfuly authenticated with your devise account
